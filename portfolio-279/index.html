@@ -1,0 +1,188 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #home {
+            background-color: #5D93C4;
+            color: #fff;
+            padding: 100px 20px;
+        }
+
+        #projects, #education {
+            background-color: #fff;
+        }
+
+        .project, .education-section {
+            background-color: #eee;
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        #contact {
+            background-color: #5D93C4;
+            color: #fff;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, This is V J B R S KEERTHI PRIYA PARASARAM, a passionate developer.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a software developer with a strong background in full stack development...</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-section">
+            <h3>Primary Education</h3>
+            <p>School Name: NNT PUBLIC SCHOOL</p>
+            <p>Year of Completion: 2019</p>
+        </div>
+        <div class="education-section">
+            <h3>Secondary Education</h3>
+            <p>School Name: DVC VIVEKA JUNIOR COLLEGE</p>
+            <p>Year of Completion: 2021</p>
+        </div>
+        <div class="education-section">
+            <h3>Undergraduate Education</h3>
+            <p>Institution: VIGNAN UNIVERSITY</p>
+            <p>Course: B.TECH-COMPUTER SCIENCE AND ENGINEERING</p>
+            <p>Year of Completion: 2025</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1:LIBRARY MANAGEMENT SYSTEM</h3>
+            <p>Technical Details:
+              Technology Stack: HTML, CSS, PHP, MySQL
+              Features:
+              CRUD Operations: Add, update, and delete books and users.
+              Book Issuing and Return: Track issue and return dates, with fine calculation.
+              Database: MySQL for managing book and user data.
+              User Interface: HTML/CSS for the front-end, PHP for back-end processing.</p>
+        </div>
+        <div class="project">
+            <h3>RESEARCH WORK ON PREDICTION OF APP RATING USING ESEMBLE LEARNING</h3>
+            <p>Technical Details:
+              Programming Language: Python
+              Libraries Used: Pandas, NumPy, Scikit-learn, XGBoost
+              Steps:
+              Data Preprocessing: Handling missing values, encoding categorical variables, scaling features.
+              Modeling: Using regression algorithms like XGBoost and Random Forest to predict app ratings.
+              </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Add interactivity or logging here if needed
+        console.log("Portfolio website loaded!");
+    </script>
+</body>
+</html>
+</p>
